@@ -25,39 +25,14 @@ import com.modirniya.rideshareaid.modules.Stat;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link StatFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class StatFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     static final String CITY_CODE = "city_code";
 
-    // TODO: Rename and change types of parameters
     private String cityCode;
 
     public StatFragment() {
         // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment StatFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static StatFragment newInstance(String param1, String param2) {
-        StatFragment fragment = new StatFragment();
-        Bundle args = new Bundle();
-        args.putString(CITY_CODE, param1);
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
@@ -85,7 +60,8 @@ public class StatFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 Stat stat = snapshot.getValue(Stat.class);
-                int results[] = new int[]
+                assert stat != null;
+                int[] results = new int[]
                         {stat.getDead(), stat.getSlow(), stat.getGood(), stat.getExcellent()};
                 progressBar.setVisibility(View.INVISIBLE);
                 layContainer.setVisibility(View.VISIBLE);

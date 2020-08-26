@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.modirniya.rideshareaid.LogsActivity;
@@ -27,6 +28,7 @@ public class LogAdapter extends RecyclerView.Adapter<LogViewHolder> {
 
     }
 
+    @NonNull
     @Override
     public LogViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.log_element_layout, viewGroup, false);
@@ -34,7 +36,7 @@ public class LogAdapter extends RecyclerView.Adapter<LogViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(LogViewHolder holder, int i) {
+    public void onBindViewHolder(@NonNull LogViewHolder holder, int i) {
         final FuelLog fuelLog = logs.get(i);
         String time, tag, cost;
         int mileage;

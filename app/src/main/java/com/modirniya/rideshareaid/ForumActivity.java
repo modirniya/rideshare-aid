@@ -42,7 +42,7 @@ public class ForumActivity extends Activity {
             mFirebaseAdapter;
 
     private enum functions {
-        newEntry, newLike, newReport;
+        newEntry
     }
 
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
@@ -89,6 +89,7 @@ public class ForumActivity extends Activity {
             @Override
             public Message parseSnapshot(DataSnapshot dataSnapshot) {
                 Message message = dataSnapshot.getValue(Message.class);
+                assert message != null;
                 message.setUid(dataSnapshot.getKey());
                 return message;
             }
@@ -197,7 +198,7 @@ public class ForumActivity extends Activity {
             result = def;
         }
         SharedPreferences settings = getSharedPreferences("Rideshare-Aid", 0);
-        result = settings.getString(keyword, result).toString();
+        result = settings.getString(keyword, result);
         return result;
     }
 

@@ -43,4 +43,7 @@
     <string name="participate">Participate</string>
     <string name="username">Username</string>
     <string name="city_name">City name</string>
+    <string name="service">Service</string>
+    <string name="business_been_slow">Business been slow</string>
+    <string name="tag">TAG</string>
 </resources>

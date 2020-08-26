@@ -19,46 +19,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link SelectionEntryFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class SelectionEntryFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     static final String CITY_CODE = "city_code";
 
     private FirebaseFunctions mFunctions;
 
-
     private String sResult = "N/A";
 
-    private Button btSubmit;
-
-    // TODO: Rename and change types of parameters
     private String cityCode;
 
     public SelectionEntryFragment() {
         // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment SelectionEntryFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static SelectionEntryFragment newInstance(String param1, String param2) {
-        SelectionEntryFragment fragment = new SelectionEntryFragment();
-        Bundle args = new Bundle();
-        args.putString(CITY_CODE, param1);
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
@@ -92,30 +64,27 @@ public class SelectionEntryFragment extends Fragment {
                 }
             }
         });
-        btSubmit = view.findViewById(R.id.btSubmit);
+        Button btSubmit = view.findViewById(R.id.btSubmit);
         btSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Map<String, Object> data = new HashMap<>();
                 data.put("city_code", cityCode);
                 data.put("selection", sResult);
-                callFunctions("stat", data);
-                ((CoopActivity)getActivity()).feedbackReceived();
+                callFunctions(data);
+                ((CoopActivity) Objects.requireNonNull(getActivity())).feedbackReceived();
             }
         });
         return view;
     }
 
-    private void callFunctions(String funcName, Map<String, Object> data) {
+    private void callFunctions(Map<String, Object> data) {
         mFunctions
-                .getHttpsCallable(funcName)
+                .getHttpsCallable("stat")
                 .call(data)
                 .continueWith(new Continuation<HttpsCallableResult, String>() {
                     @Override
                     public String then(@NonNull Task<HttpsCallableResult> task) {
-                        // This continuation runs on either success or failure, but if the task
-                        // has failed then getResult() will throw an Exception which will be
-                        // propagated down.
                         return (String) Objects.requireNonNull(task.getResult()).getData();
                     }
                 });

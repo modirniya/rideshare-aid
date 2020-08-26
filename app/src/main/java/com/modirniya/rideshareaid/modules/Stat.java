@@ -15,39 +15,16 @@ public class Stat {
         return slow;
     }
 
-    public void setSlow(int slow) {
-        this.slow = slow;
-    }
-
     public int getDead() {
         return dead;
-    }
-
-    public void setDead(int dead) {
-        this.dead = dead;
-    }
-
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
     }
 
     public int getExcellent() {
         return excellent;
     }
 
-    public void setExcellent(int excellent) {
-        this.excellent = excellent;
-    }
-
     public int getGood() {
         return good;
     }
 
-    public void setGood(int good) {
-        this.good = good;
-    }
 }

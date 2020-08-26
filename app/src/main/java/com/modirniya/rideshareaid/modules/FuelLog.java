@@ -7,23 +7,6 @@ public class FuelLog {
     public FuelLog() {
     }
 
-    public FuelLog(String time, String tag, int mileage, String price, String memo) {
-        this.Mileage = mileage;
-        this.Time = time;
-        this.Tag = tag;
-        this.Price = price;
-        this.Memo = memo;
-    }
-
-    public FuelLog(String id, String time, String tag, int mileage, String price, String memo) {
-        this.id = id;
-        this.Mileage = mileage;
-        this.Time = time;
-        this.Tag = tag;
-        this.Price = price;
-        this.Memo = memo;
-    }
-
     public String getId() {
         return id;
     }

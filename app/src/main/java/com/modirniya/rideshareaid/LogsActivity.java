@@ -1,5 +1,6 @@
 package com.modirniya.rideshareaid;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
@@ -30,19 +31,19 @@ import com.modirniya.rideshareaid.modules.FuelLog;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Objects;
 
 
 public class LogsActivity extends Activity {
     private String currentUser;
     private FirebaseDatabase database;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logs);
         database = FirebaseDatabase.getInstance();
-        currentUser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        currentUser = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid();
         RecyclerView logView = findViewById(R.id.log_list);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setReverseLayout(true);
@@ -57,7 +58,6 @@ public class LogsActivity extends Activity {
         myRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                FuelLog log;
                 for (DataSnapshot childNode : snapshot.getChildren()) {
                     allLogs.add((FuelLog) childNode.getValue(FuelLog.class));
                 }
@@ -198,7 +198,7 @@ public class LogsActivity extends Activity {
 
     private String get_time() {
         Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat mdFormat = new SimpleDateFormat("EEEE\nMM-dd\nh:mm a");
+        @SuppressLint("SimpleDateFormat") SimpleDateFormat mdFormat = new SimpleDateFormat("EEEE\nMM-dd\nh:mm a");
         return mdFormat.format(calendar.getTime());
     }
 
@@ -210,7 +210,7 @@ public class LogsActivity extends Activity {
             result = def;
         }
         SharedPreferences settings = getSharedPreferences("Rideshare-Aid", 0);
-        result = settings.getString(keyword, result).toString();
+        result = settings.getString(keyword, result);
         return result;
     }
 
@@ -220,7 +220,7 @@ public class LogsActivity extends Activity {
             SharedPreferences settings = getSharedPreferences("Rideshare-Aid", 0);
             SharedPreferences.Editor editor = settings.edit();
             editor.putString(keyword, value);
-            editor.commit();
+            editor.apply();
         }
     }
 }

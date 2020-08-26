@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/semibold"
-            android:text="Business been slow" />
+            android:text="@string/business_been_slow" />
     </LinearLayout>
 
 

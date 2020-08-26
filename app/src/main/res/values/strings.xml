@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Rideshare Aid</string>
+    <string name="motto">Solutions for all</string>
+    <string name="welcome">Welcome to the project</string>
+    <string name="loc_line1">Select your region</string>
+    <string name="loc2">Find your city name</string>
+    <string name="coop_line1">Your cooperation matters!</string>
+    <string name="coop_line2">How was\nbusiness\nso far?</string>
+    <string name="logo">logo</string>
+    <string name="b_booming">Business is booming!</string>
+    <string name="b_good">Business is good!</string>
+    <string name="b_slow">Business is slow!</string>
+    <string name="b_dead">Business is Dead!!</string>
+    <string name="not_enough_data">No data at this time</string>
+    <string name="submit">Submit</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="slow">Slow</string>
+    <string name="dead">Dead</string>
+    <string name="leave_a_feedback">Leave a feedback</string>
+    <string name="fuel_log">Fuel log</string>
+    <string name="mileage_log">Mileage log</string>
+    <string name="los_angeles">Los Angeles</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="save">Save</string>
+    <string name="mileage">Mileage</string>
+    <string name="cost">Cost</string>
+    <string name="notes">Notes</string>
+    <string name="date_time">Date/Time</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="fuel">Fuel</string>
+    <string name="logs">Mileage Logs</string>
+    <string name="forum">Forum</string>
+    <string name="send">Send</string>
+    <string name="sample_text">message</string>
+    <string name="sender">sender:</string>
+    <string name="test_text">This is a test text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_message_here">Your message here</string>
+    <string name="time">Time</string>
+    <string name="userImage">user image</string>
+    <string name="participate">Participate</string>
+    <string name="username">Username</string>
+    <string name="city_name">City name</string>
+</resources>

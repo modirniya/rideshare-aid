@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/layout_container">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_top"
+        android:gravity="end"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/leave_a_feedback"
+            android:textColor="@color/colorContainerBG"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btSubmit"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:drawableEnd="@drawable/arrow_right"
+            android:fontFamily="@font/semibold"
+            android:paddingStart="24dp"
+            android:paddingEnd="4dp"
+            android:text="@string/submit"
+            android:textColor="@color/colorContainerBG"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/coop_line2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="2dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:background="#808080"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <RadioButton
+            android:id="@+id/rbExcellent"
+            style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/excellent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbSlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slow"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbDead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dead"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

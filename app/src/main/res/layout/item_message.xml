@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginBottom="8dp">
+
+    <FrameLayout
+        android:id="@+id/layIvContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layMsgContainer"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/name_frame">
+
+        <TextView
+            android:id="@+id/tvSender"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sender"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/layIvContainer"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/msg_frame"
+        android:contentDescription="@string/userImage"
+        android:src="@drawable/ic__person" />
+
+    <LinearLayout
+        android:id="@+id/layMsgContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:background="@drawable/container_dark"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="4dp"
+            android:text="@string/sample_text"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/layIvContainer"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/time"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="24dp" android:layout_marginTop="16dp"
+              android:layout_marginBottom="16dp">
+    <com.google.android.material.button.MaterialButtonToggleGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toggle_button_group"
+            app:singleSelection="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:checkedButton="@id/tgFuel">
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/tgFuel"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_fuel"
+                app:iconGravity="top"
+                android:text="@string/fuel"
+                android:textAllCaps="false"
+        />
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/tgMileage"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_car"
+            app:iconGravity="top"
+                android:text="@string/mileage"
+                android:textAllCaps="false"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tgService"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_build"
+            app:iconGravity="top"
+            android:text="Service"
+            android:textAllCaps="false"/>
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mileage"
+            app:helperText="*Required"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMileage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etCostLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notes"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textMultiLine"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

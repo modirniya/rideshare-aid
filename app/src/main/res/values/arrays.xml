@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regions">
+        <item>North America</item>
+        <item>Central and South America</item>
+        <item>Europe</item>
+        <item>Australia and New Zealand</item>
+        <item>South Asia</item>
+        <item>East Asia</item>
+        <item>Middle East and Africa</item>
+    </string-array>
+
+    <string-array name="AustraliaNewZealand">
+        <item>Adelaide</item>
+        <item>Auckland</item>
+        <item>Bathurst</item>
+        <item>Bendigo and Ballarat</item>
+        <item>Brisbane</item>
+        <item>Bunbury</item>
+        <item>Bundaberg</item>
+        <item>Busselton</item>
+        <item>Byron Bay</item>
+        <item>Cairns</item>
+        <item>Canberra</item>
+        <item>Christchurch</item>
+        <item>Coffs Harbour</item>
+        <item>Darwin</item>
+        <item>Dunedin</item>
+        <item>Geelong</item>
+        <item>Gladstone</item>
+        <item>Gold Coast</item>
+        <item>Hamilton, NZ</item>
+        <item>Hervey Bay</item>
+        <item>Hobart</item>
+        <item>Horsham</item>
+        <item>Launceston</item>
+        <item>Mackay</item>
+        <item>Melbourne</item>
+        <item>Mornington Peninsula</item>
+        <item>Newcastle</item>
+        <item>Orange</item>
+        <item>Perth</item>
+        <item>Port Macquarie</item>
+        <item>Queenstown</item>
+        <item>Rockhampton</item>
+        <item>Shepparton</item>
+        <item>Sunshine Coast</item>
+        <item>Surf Coast</item>
+        <item>Sydney</item>
+        <item>Tamworth</item>
+        <item>Tauranga</item>
+        <item>Toowoomba</item>
+        <item>Townsville</item>
+        <item>Wagga Wagga</item>
+        <item>Warrnambool</item>
+        <item>Wellington</item>
+        <item>Wollongong</item>
+    </string-array>
+
+    <string-array name="CentralSouthAmerica">
+        <item>Anapolis</item>
+        <item>Angra dos Reis</item>
+        <item>Antofagasta</item>
+        <item>Aracaju</item>
+        <item>Aracatuba</item>
+        <item>Arapiraca</item>
+        <item>Arequipa</item>
+        <item>Arica</item>
+        <item>Asuncion</item>
+        <item>Bage</item>
+        <item>Barbacena</item>
+        <item>Barranquilla</item>
+        <item>Barreiras</item>
+        <item>Bauru</item>
+        <item>Belem</item>
+        <item>Belo Horizonte</item>
+        <item>Blumenau</item>
+        <item>Boa Vista</item>
+        <item>Bogota</item>
+        <item>Botucatu</item>
+        <item>Braganca Paulista</item>
+        <item>Brasilia</item>
+        <item>Bucaramanga</item>
+        <item>Buenos Aires</item>
+        <item>Cabo Frio</item>
+        <item>Cachoeiro de Itapemirim</item>
+        <item>Calama</item>
+        <item>Cali - Colombia</item>
+        <item>Campina Grande</item>
+        <item>Campinas</item>
+        <item>Campo Grande</item>
+        <item>Campos dos Goytacazes</item>
+        <item>Cartagena</item>
+        <item>Caruaru</item>
+        <item>Cascavel</item>
+        <item>Caxias do Sul</item>
+        <item>Chapeco</item>
+        <item>Chiclayo</item>
+        <item>Concepcion</item>
+        <item>Conselheiro Lafaiete</item>
+        <item>Copiapo</item>
+        <item>Cornelio Procopio</item>
+        <item>Coyhaique</item>
+        <item>Criciuma</item>
+        <item>Cucuta</item>
+        <item>Cuenca</item>
+        <item>Cuiaba</item>
+        <item>Curitiba</item>
+        <item>Cusco</item>
+        <item>Divinopolis</item>
+        <item>Dourados</item>
+        <item>Encarnacion</item>
+        <item>Feira de Santana</item>
+        <item>Florianopolis</item>
+        <item>Fortaleza</item>
+        <item>Foz do Iguacu</item>
+        <item>Franca</item>
+        <item>Garanhuns</item>
+        <item>Goiania</item>
+        <item>Governador Valadares</item>
+        <item>Guarapuava</item>
+        <item>Guatemala City</item>
+        <item>Guayaquil</item>
+        <item>Ibague</item>
+        <item>Ijui</item>
+        <item>Imperatriz</item>
+        <item>Ipatinga</item>
+        <item>Iquique</item>
+        <item>Itabira</item>
+        <item>Itabuna e Ilheus</item>
+        <item>Itajai</item>
+        <item>Itajuba</item>
+        <item>Itaperuna</item>
+        <item>Itapipoca</item>
+        <item>Ivaipora</item>
+        <item>Jequie</item>
+        <item>Joacaba</item>
+        <item>Joao Pessoa</item>
+        <item>Joinville</item>
+        <item>Juazeiro do Norte</item>
+        <item>Juiz de Fora</item>
+        <item>La Paz</item>
+        <item>La Serena</item>
+        <item>Lages</item>
+        <item>Liberia</item>
+        <item>Lima</item>
+        <item>Linhares</item>
+        <item>Londrina</item>
+        <item>Los Andes</item>
+        <item>Macae</item>
+        <item>Macapa</item>
+        <item>Maceio</item>
+        <item>Manaus</item>
+        <item>Mar del Plata</item>
+        <item>Maraba</item>
+        <item>Marilia</item>
+        <item>Maringa</item>
+        <item>Medellin</item>
+        <item>Mendoza</item>
+        <item>Mogi Guacu</item>
+        <item>Monteria</item>
+        <item>Montes Claros</item>
+        <item>Montevideo</item>
+        <item>Mossoro</item>
+        <item>Natal</item>
+        <item>Nova Friburgo</item>
+        <item>Osorno</item>
+        <item>Ovalle</item>
+        <item>Palmas</item>
+        <item>Panama City, PA</item>
+        <item>Paranagua</item>
+        <item>Parauapebas</item>
+        <item>Parnaiba</item>
+        <item>Passo Fundo</item>
+        <item>Patos</item>
+        <item>Patos de Minas</item>
+        <item>Paulo Afonso</item>
+        <item>Pelotas</item>
+        <item>Pereira</item>
+        <item>Petrolina</item>
+        <item>Petropolis</item>
+        <item>Piracicaba</item>
+        <item>Piura</item>
+        <item>Pocos de Caldas</item>
+        <item>Ponta Grossa</item>
+        <item>Popayan</item>
+        <item>Porto Alegre</item>
+        <item>Porto Seguro</item>
+        <item>Porto Velho</item>
+        <item>Pouso Alegre</item>
+        <item>Presidente Prudente</item>
+        <item>Puerto Montt</item>
+        <item>Puerto Plata</item>
+        <item>Punta Arenas</item>
+        <item>Punta del Este</item>
+        <item>Quetzaltenango</item>
+        <item>Quito</item>
+        <item>Rancagua</item>
+        <item>Recife</item>
+        <item>Ribeirao Preto</item>
+        <item>Rio Branco</item>
+        <item>Rio De Janeiro</item>
+        <item>Rio Verde</item>
+        <item>Rondonopolis</item>
+        <item>Salvador</item>
+        <item>San Carlos</item>
+        <item>San Jose, CR</item>
+        <item>San Miguel</item>
+        <item>San Salvador</item>
+        <item>Santa Ana</item>
+        <item>Santa Cruz do Capibaribe</item>
+        <item>Santa Cruz do Sul</item>
+        <item>Santa Cruz, BO</item>
+        <item>Santa Maria</item>
+        <item>Santarem</item>
+        <item>Santiago</item>
+        <item>Santiago, DR</item>
+        <item>Santo Angelo</item>
+        <item>Santo Antonio de Jesus</item>
+        <item>Santo Domingo</item>
+        <item>Santos</item>
+        <item>Sao Bento do Sul</item>
+        <item>Sao Carlos</item>
+        <item>Sao Jose do Rio Preto</item>
+        <item>Sao Jose dos Campos</item>
+        <item>Sao Luis</item>
+        <item>Sao Paulo</item>
+        <item>Sobral</item>
+        <item>Sorocaba</item>
+        <item>Talca</item>
+        <item>Tegucigalpa</item>
+        <item>Temuco</item>
+        <item>Teresina</item>
+        <item>Tres Rios</item>
+        <item>Uba</item>
+        <item>Uberaba</item>
+        <item>Uberlandia</item>
+        <item>Umuarama</item>
+        <item>Uruguaiana</item>
+        <item>Valdivia</item>
+        <item>Valenca</item>
+        <item>Valledupar</item>
+        <item>Valparaiso</item>
+        <item>Varginha</item>
+        <item>Vitoria</item>
+        <item>Vitoria da Conquista</item>
+        <item>Volta Redonda</item>
+    </string-array>
+
+    <string-array name="Europe">
+        <item>Algarve</item>
+        <item>Alicante</item>
+        <item>Amiens</item>
+        <item>Amsterdam</item>
+        <item>Angers</item>
+        <item>Annecy</item>
+        <item>Athens, GR</item>
+        <item>Avignon</item>
+        <item>Basel</item>
+        <item>Belfast</item>
+        <item>Berlin</item>
+        <item>Besancon</item>
+        <item>Birmingham, UK</item>
+        <item>Bologna</item>
+        <item>Bordeaux</item>
+        <item>Brasov</item>
+        <item>Bratislava</item>
+        <item>Brest</item>
+        <item>Brighton and Sussex</item>
+        <item>Brussels</item>
+        <item>Bucharest</item>
+        <item>Budapest</item>
+        <item>Cambridge and East Anglia</item>
+        <item>Cardiff</item>
+        <item>Cherbourg</item>
+        <item>Clermont Ferrand</item>
+        <item>Cluj</item>
+        <item>Coimbra</item>
+        <item>Cologne</item>
+        <item>Copenhagen</item>
+        <item>Cordoba</item>
+        <item>Corsica</item>
+        <item>Croatian Coast</item>
+        <item>Dijon</item>
+        <item>Dnipro</item>
+        <item>Dublin</item>
+        <item>Dusseldorf</item>
+        <item>Edinburgh</item>
+        <item>Florence</item>
+        <item>Frankfurt</item>
+        <item>Geneva</item>
+        <item>Glasgow</item>
+        <item>Gothenburg</item>
+        <item>Granada</item>
+        <item>Graz</item>
+        <item>Grenoble</item>
+        <item>Hamburg</item>
+        <item>Helsinki</item>
+        <item>Home Counties</item>
+        <item>Iasi</item>
+        <item>Innsbruck</item>
+        <item>Istanbul</item>
+        <item>Kharkiv</item>
+        <item>Krakow</item>
+        <item>Kyiv</item>
+        <item>La Rochelle</item>
+        <item>Lausanne</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Leipzig</item>
+        <item>Leuven</item>
+        <item>Lille</item>
+        <item>Limoges</item>
+        <item>Linz</item>
+        <item>Lisbon</item>
+        <item>Lodz</item>
+        <item>London</item>
+        <item>Lorient</item>
+        <item>Lublin</item>
+        <item>Lviv</item>
+        <item>Lyon</item>
+        <item>Madrid</item>
+        <item>Malaga(Málaga)</item>
+        <item>Malmo (Malmö)</item>
+        <item>Manchester</item>
+        <item>Marseille</item>
+        <item>Merseyside</item>
+        <item>Milan</item>
+        <item>Montpellier</item>
+        <item>Mulhouse</item>
+        <item>Munich</item>
+        <item>Namur</item>
+        <item>Nancy</item>
+        <item>Nantes</item>
+        <item>Nice</item>
+        <item>North East, UK</item>
+        <item>Nottingham</item>
+        <item>Odessa</item>
+        <item>Orleans</item>
+        <item>Oslo</item>
+        <item>Paris</item>
+        <item>Perpignan</item>
+        <item>Poitiers</item>
+        <item>Porto</item>
+        <item>Poznan</item>
+        <item>Prague</item>
+        <item>Reims</item>
+        <item>Rennes</item>
+        <item>Rome</item>
+        <item>Rouen</item>
+        <item>Saint Quentin</item>
+        <item>Salzburg</item>
+        <item>Seville</item>
+        <item>Sheffield</item>
+        <item>Silesia</item>
+        <item>South Coast, UK</item>
+        <item>South West, UK</item>
+        <item>Southern Netherlands</item>
+        <item>Stockholm</item>
+        <item>Stoke</item>
+        <item>Strasbourg</item>
+        <item>Stuttgart</item>
+        <item>Tallinn</item>
+        <item>Timisoara</item>
+        <item>Toulon</item>
+        <item>Toulouse</item>
+        <item>Tours</item>
+        <item>Trojmiasto</item>
+        <item>Troyes</item>
+        <item>Turin</item>
+        <item>Vienna</item>
+        <item>Vilnius</item>
+        <item>Vinnytsia</item>
+        <item>Warsaw</item>
+        <item>Wroclaw</item>
+        <item>York</item>
+        <item>Zagreb</item>
+        <item>Zaporizhia</item>
+        <item>Zurich</item>
+    </string-array>
+
+    <string-array name="EastAsia">
+        <item>Awaji Island</item>
+        <item>Fukuoka</item>
+        <item>Fukushima</item>
+        <item>Hiroshima</item>
+        <item>Hong Kong</item>
+        <item>Hsinchu</item>
+        <item>Incheon</item>
+        <item>Kaohsiung</item>
+        <item>Kobe</item>
+        <item>Kyotango</item>
+        <item>Kyoto</item>
+        <item>Macau</item>
+        <item>Nagoya</item>
+        <item>Nakatonbetsu</item>
+        <item>Osaka</item>
+        <item>Sendai</item>
+        <item>Seongnam</item>
+        <item>Seoul</item>
+        <item>Taichung</item>
+        <item>Taipei</item>
+        <item>Taoyuan</item>
+        <item>Tokyo</item>
+        <item>Yokohama</item>
+    </string-array>
+
+    <string-array name="MiddleEast">
+        <item>Abu Dhabi</item>
+        <item>Amman</item>
+        <item>Beirut</item>
+        <item>Doha</item>
+        <item>Dubai</item>
+        <item>Eastern Province, KSA</item>
+        <item>Jeddah</item>
+        <item>Madinah</item>
+        <item>Manama</item>
+        <item>Qassim</item>
+        <item>Riyadh</item>
+        <item>Tel Aviv</item>
+        <item>Abuja</item>
+        <item>Accra</item>
+        <item>Alexandria</item>
+        <item>Cairo</item>
+        <item>Canal Cities</item>
+        <item>Cape Town</item>
+        <item>Casablanca</item>
+        <item>Damietta</item>
+        <item>Dar Es Salaam</item>
+        <item>Delta</item>
+        <item>Durban</item>
+        <item>Gulu</item>
+        <item>Hurghada</item>
+        <item>Johannesburg and Pretoria</item>
+        <item>Kampala</item>
+        <item>Kumasi</item>
+        <item>Lagos</item>
+        <item>Mansoura</item>
+        <item>Mauritius</item>
+        <item>Mombasa</item>
+        <item>Nairobi</item>
+        <item>Port Elizabeth</item>
+        <item>Zagazig</item>
+    </string-array>
+
+    <string-array name="SouthAsia">
+        <item>Ahmedabad</item>
+        <item>Ajmer</item>
+        <item>Amritsar</item>
+        <item>Aurangabad</item>
+        <item>Bangalore</item>
+        <item>Bhopal</item>
+        <item>Bhubaneswar</item>
+        <item>Chandigarh</item>
+        <item>Chennai</item>
+        <item>Chittagong</item>
+        <item>Coimbatore</item>
+        <item>Colombo</item>
+        <item>Delhi NCR</item>
+        <item>Dhaka</item>
+        <item>Faisalabad</item>
+        <item>Gujranwala</item>
+        <item>Guwahati</item>
+        <item>Hyderabad</item>
+        <item>Hyderabad, Pakistan</item>
+        <item>Indore</item>
+        <item>Islamabad</item>
+        <item>Jaipur</item>
+        <item>Jodhpur</item>
+        <item>Karachi</item>
+        <item>Kochi</item>
+        <item>Kolkata</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Lahore</item>
+        <item>Lucknow</item>
+        <item>Ludhiana</item>
+        <item>Mangalore</item>
+        <item>Multan</item>
+        <item>Mumbai</item>
+        <item>Mysore</item>
+        <item>Nagpur</item>
+        <item>Nashik</item>
+        <item>Peshawar</item>
+        <item>Puducherry</item>
+        <item>Pune</item>
+        <item>Surat</item>
+        <item>Thiruvananthapuram</item>
+        <item>Udaipur</item>
+        <item>Vadodara</item>
+        <item>Vijayawada</item>
+        <item>Visakhapatnam</item>
+    </string-array>
+
+    <string-array name="NorthAmerica">
+        <item>Abilene</item>
+        <item>Aguascalientes</item>
+        <item>Akron</item>
+        <item>Albuquerque</item>
+        <item>Amarillo</item>
+        <item>Ames</item>
+        <item>Anchorage</item>
+        <item>Ann Arbor</item>
+        <item>Asheville, NC</item>
+        <item>Athens</item>
+        <item>Atlanta</item>
+        <item>Auburn</item>
+        <item>Augusta</item>
+        <item>Austin</item>
+        <item>Bakersfield</item>
+        <item>Baltimore-Maryland</item>
+        <item>Baton Rouge</item>
+        <item>Beaumont</item>
+        <item>Bellingham</item>
+        <item>Big Island</item>
+        <item>Billings</item>
+        <item>Birmingham, AL</item>
+        <item>Bismarck</item>
+        <item>Bloomington, IN</item>
+        <item>Boise</item>
+        <item>Boone</item>
+        <item>Boston</item>
+        <item>Bowling Green, KY</item>
+        <item>Bozeman</item>
+        <item>Calgary</item>
+        <item>Campeche</item>
+        <item>Cancun</item>
+        <item>Carbondale</item>
+        <item>Cedar Rapids</item>
+        <item>Celaya</item>
+        <item>Central Atlantic Coast, FL</item>
+        <item>Central Oregon</item>
+        <item>Champaign</item>
+        <item>Charleston, SC</item>
+        <item>Charlotte</item>
+        <item>Charlottesville-Harrisonburg</item>
+        <item>Chattanooga</item>
+        <item>Chicago</item>
+        <item>Chihuahua</item>
+        <item>Cincinnati</item>
+        <item>Ciudad Juarez</item>
+        <item>Ciudad Obregon</item>
+        <item>Cleveland</item>
+        <item>Coastal Georgia</item>
+        <item>Coeur D Alene</item>
+        <item>Colima</item>
+        <item>College Station</item>
+        <item>Colorado Springs</item>
+        <item>Columbia, MO</item>
+        <item>Columbia, SC</item>
+        <item>Columbus</item>
+        <item>Columbus, GA</item>
+        <item>Connecticut</item>
+        <item>Cookeville</item>
+        <item>Corpus Christi</item>
+        <item>Cuernavaca</item>
+        <item>Culiacan</item>
+        <item>Dallas-Fort Worth</item>
+        <item>Dayton</item>
+        <item>Delaware</item>
+        <item>Denver</item>
+        <item>Des Moines</item>
+        <item>Detroit</item>
+        <item>Dickinson</item>
+        <item>Dothan</item>
+        <item>DuBois</item>
+        <item>Dubuque</item>
+        <item>Duluth</item>
+        <item>Durango</item>
+        <item>Eagle Pass</item>
+        <item>East Alabama</item>
+        <item>Eastern Idaho</item>
+        <item>Eastern North Carolina</item>
+        <item>Eastern Shore</item>
+        <item>Eastern Washington</item>
+        <item>Eastern WV</item>
+        <item>Eau Claire</item>
+        <item>Edmonton</item>
+        <item>El Paso</item>
+        <item>Erie</item>
+        <item>Eugene, OR</item>
+        <item>Evansville, IN</item>
+        <item>Fairbanks</item>
+        <item>Fargo - Moorhead</item>
+        <item>Fayetteville, AR</item>
+        <item>Fayetteville, NC</item>
+        <item>Flagstaff</item>
+        <item>Flint</item>
+        <item>Florence, SC</item>
+        <item>Florida Keys</item>
+        <item>Fort Collins</item>
+        <item>Fort Myers-Naples</item>
+        <item>Fort Wayne</item>
+        <item>Fresno</item>
+        <item>Gainesville</item>
+        <item>Gallup</item>
+        <item>Gatineau</item>
+        <item>Golden Triangle</item>
+        <item>Gomez Palacio</item>
+        <item>Grand Forks</item>
+        <item>Grand Rapids</item>
+        <item>Greater Maine</item>
+        <item>Greater Williamsport</item>
+        <item>Green Bay</item>
+        <item>Greenville, SC</item>
+        <item>Guadalajara</item>
+        <item>Guanajuato</item>
+        <item>Guasave</item>
+        <item>Guaymas</item>
+        <item>Gulfport-Biloxi</item>
+        <item>Hamilton</item>
+        <item>Hampton Roads</item>
+        <item>Harrisburg</item>
+        <item>Hattiesburg, MS</item>
+        <item>Hermosillo</item>
+        <item>Honolulu</item>
+        <item>Houston</item>
+        <item>Huntsville, AL</item>
+        <item>Indianapolis</item>
+        <item>Inland Empire</item>
+        <item>Iowa City</item>
+        <item>Irapuato</item>
+        <item>Jackson</item>
+        <item>Jackson, TN</item>
+        <item>Jacksonville</item>
+        <item>Johnstown-Altoona</item>
+        <item>Jonesboro</item>
+        <item>Juneau</item>
+        <item>Kalamazoo</item>
+        <item>Kansas City</item>
+        <item>Kauai</item>
+        <item>Killeen</item>
+        <item>Kingston</item>
+        <item>Kitchener-Waterloo</item>
+        <item>Knoxville</item>
+        <item>La Crosse</item>
+        <item>La Paz, Mexico</item>
+        <item>Lafayette, LA</item>
+        <item>Lancaster, PA</item>
+        <item>Lansing</item>
+        <item>Laredo</item>
+        <item>Las Cruces</item>
+        <item>Las Vegas</item>
+        <item>Lawrence</item>
+        <item>Lawton</item>
+        <item>Lehigh Valley</item>
+        <item>Leon</item>
+        <item>Lethbridge</item>
+        <item>Lexington</item>
+        <item>Lincoln</item>
+        <item>Little Rock</item>
+        <item>London, Ont</item>
+        <item>Los Angeles</item>
+        <item>Los Cabos</item>
+        <item>Los Mochis</item>
+        <item>Louisville</item>
+        <item>Lubbock</item>
+        <item>Macon</item>
+        <item>Madison</item>
+        <item>Manhattan</item>
+        <item>Mankato</item>
+        <item>Manzanillo</item>
+        <item>Maui</item>
+        <item>Mayaguez</item>
+        <item>Mazatlan</item>
+        <item>Memphis</item>
+        <item>Merida</item>
+        <item>Meridian</item>
+        <item>Mexicali</item>
+        <item>Mexico City</item>
+        <item>Miami</item>
+        <item>Midland-Odessa</item>
+        <item>Milwaukee</item>
+        <item>Minneapolis - St. Paul</item>
+        <item>Mississippi Delta</item>
+        <item>Missoula</item>
+        <item>Mobile, AL</item>
+        <item>Modesto</item>
+        <item>Monclova</item>
+        <item>Monroe</item>
+        <item>Monterrey</item>
+        <item>Montgomery, AL</item>
+        <item>Montreal</item>
+        <item>Morelia</item>
+        <item>Myrtle Beach</item>
+        <item>Nacogdoches</item>
+        <item>Nashville</item>
+        <item>Navojoa</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Jersey (Shore)</item>
+        <item>New Orleans</item>
+        <item>New York City</item>
+        <item>Niagara Region</item>
+        <item>Nogales</item>
+        <item>North Georgia</item>
+        <item>Northern Missouri</item>
+        <item>Nuevo Vallarta</item>
+        <item>NW Indiana</item>
+        <item>NYC Suburbs</item>
+        <item>Ocala, FL</item>
+        <item>Oklahoma City</item>
+        <item>Olympia</item>
+        <item>Omaha</item>
+        <item>Orange County</item>
+        <item>Orlando</item>
+        <item>Ottawa</item>
+        <item>Outer Banks, NC</item>
+        <item>Oxford</item>
+        <item>Palm Springs</item>
+        <item>Panama City, Fl</item>
+        <item>Peninsula and SW WA</item>
+        <item>Pensacola, FL</item>
+        <item>Peoria, IL</item>
+        <item>Philadelphia</item>
+        <item>Phoenix</item>
+        <item>Piedmont Triad</item>
+        <item>Piedras Negras</item>
+        <item>Pittsburgh</item>
+        <item>Ponce</item>
+        <item>Portland</item>
+        <item>Portland, ME</item>
+        <item>Puebla</item>
+        <item>Puerto Vallarta</item>
+        <item>Quad Cities</item>
+        <item>Quebec City</item>
+        <item>Queretaro</item>
+        <item>Raleigh-Durham</item>
+        <item>Rapid City</item>
+        <item>Reading, PA</item>
+        <item>Red Deer</item>
+        <item>Regina</item>
+        <item>Reno</item>
+        <item>Rhode Island</item>
+        <item>Richmond</item>
+        <item>Rio Grande Valley</item>
+        <item>Roanoke-Blacksburg</item>
+        <item>Rochester, MN</item>
+        <item>Rockford</item>
+        <item>Rockies</item>
+        <item>Sacramento</item>
+        <item>Salamanca</item>
+        <item>Salt Lake City</item>
+        <item>Saltillo</item>
+        <item>San Angelo</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>San Francisco Bay Area</item>
+        <item>San Juan, PR</item>
+        <item>San Luis Obispo</item>
+        <item>San Luis Potosi</item>
+        <item>San Luis Rio Colorado</item>
+        <item>San Miguel de Allende</item>
+        <item>Santa Barbara</item>
+        <item>Santa Fe</item>
+        <item>Sarasota</item>
+        <item>Saskatoon</item>
+        <item>Savannah-Hilton Head</item>
+        <item>Seattle</item>
+        <item>Shreveport, LA</item>
+        <item>Sioux City</item>
+        <item>Sioux Falls</item>
+        <item>South Alabama</item>
+        <item>South Bend</item>
+        <item>South Georgia</item>
+        <item>South Tennessee</item>
+        <item>Southern Arkansas</item>
+        <item>Southern Oregon</item>
+        <item>Southern Utah</item>
+        <item>Spokane</item>
+        <item>Springfield, IL</item>
+        <item>Springfield, Mo</item>
+        <item>St Cloud</item>
+        <item>St Louis</item>
+        <item>State College</item>
+        <item>Stillwater</item>
+        <item>Tacoma</item>
+        <item>Tallahassee</item>
+        <item>Tampa Bay</item>
+        <item>Taos</item>
+        <item>Tepic</item>
+        <item>Terre Haute</item>
+        <item>Texarkana</item>
+        <item>the Hamptons</item>
+        <item>The Shoals</item>
+        <item>Tijuana</item>
+        <item>Tlaxcala</item>
+        <item>Toledo</item>
+        <item>Toluca</item>
+        <item>Topeka</item>
+        <item>Toronto</item>
+        <item>Torreon</item>
+        <item>Traverse City</item>
+        <item>Tri-Cities</item>
+        <item>Tri-Cities, MI</item>
+        <item>Tucson</item>
+        <item>Tulsa</item>
+        <item>Tuscaloosa</item>
+        <item>Tyler</item>
+        <item>Upstate NY</item>
+        <item>Uruapan</item>
+        <item>Ventura</item>
+        <item>Vermont</item>
+        <item>Villahermosa</item>
+        <item>Waco</item>
+        <item>Washington D.C.</item>
+        <item>Waterloo-Cedar Falls</item>
+        <item>West Lafayette</item>
+        <item>West Texas</item>
+        <item>Western Arizona</item>
+        <item>Western MA</item>
+        <item>Western WV</item>
+        <item>Wichita</item>
+        <item>Wichita Falls</item>
+        <item>Wilkes-Barre Scranton</item>
+        <item>Willamette Valley</item>
+        <item>Wilmington, NC</item>
+        <item>Windsor</item>
+        <item>Winnipeg</item>
+        <item>Worcester</item>
+        <item>Wyoming</item>
+        <item>York-Gettysburg</item>
+        <item>Youngstown</item>
+        <item>Yuma</item>
+        <item>Zacatecas</item>
+    </string-array>
+</resources>

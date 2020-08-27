@@ -10,7 +10,7 @@ public class Message {
     private String uid = null;
     private String text = null;
     private String name = null;
-    private Long time = Long.parseLong("0");
+    private Long time;
 
     public Message() {
     }
@@ -29,8 +29,12 @@ public class Message {
 
     public String getStringTime() {
         Calendar cal = Calendar.getInstance(Locale.ENGLISH);
-        cal.setTimeInMillis(time);
+        cal.setTimeInMillis(getTime());
         return DateFormat.format("dd-MM hh:mm a", cal).toString();
+    }
+
+    public Long getTime() {
+        return time;
     }
 
 }

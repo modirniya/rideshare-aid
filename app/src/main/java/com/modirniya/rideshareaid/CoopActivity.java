@@ -61,15 +61,10 @@ public class CoopActivity extends AppCompatActivity implements View.OnClickListe
         Button btLogs = findViewById(R.id.btLogs);
         btLogs.setOnClickListener(this);
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-6771897198841555/5663003647");
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
     }
 
     @Override

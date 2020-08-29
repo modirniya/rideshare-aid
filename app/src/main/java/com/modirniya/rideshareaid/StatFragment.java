@@ -48,7 +48,7 @@ public class StatFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_stat, container, false);
-        final BarChart barChart = (BarChart) view.findViewById(R.id.barChart);
+        final BarChart barChart = view.findViewById(R.id.barChart);
         final LinearLayout layContainer = view.findViewById(R.id.layContainer);
         final ProgressBar progressBar = view.findViewById(R.id.progressBar);
         final TextView tvCondition = view.findViewById(R.id.tvCondition);

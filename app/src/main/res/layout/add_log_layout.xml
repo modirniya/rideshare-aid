@@ -9,7 +9,6 @@
     android:padding="24dp">
 
     <com.google.android.material.button.MaterialButtonToggleGroup
-        android:id="@+id/toggle_button_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:checkedButton="@id/tgFuel"

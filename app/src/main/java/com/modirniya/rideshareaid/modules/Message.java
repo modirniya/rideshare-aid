@@ -2,7 +2,6 @@ package com.modirniya.rideshareaid.modules;
 
 
 import android.text.format.DateFormat;
-
 import java.util.Calendar;
 import java.util.Locale;
 

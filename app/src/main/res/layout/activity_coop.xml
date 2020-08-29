@@ -119,8 +119,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="24dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-6771897198841555/3720999842">
+        app:adUnitId="ca-app-pub-6771897198841555/5663003647">
         <!--  test banner          ads:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
-        <!--actual banner            ads:adUnitId="ca-app-pub-6771897198841555/3720999842"-->
+        <!--actual banner            ads:adUnitId="ca-app-pub-6771897198841555/5663003647"-->
     </com.google.android.gms.ads.AdView>
 </LinearLayout>
